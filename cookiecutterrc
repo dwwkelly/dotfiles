@@ -1,0 +1,5 @@
+default_context:
+  full_name: "Devin Kelly"
+  email: "dwwkelly@fastmail.fm"
+  github_username: "dwwkelly"
+cookiecutters_dir: "~/.cookiecutters/"

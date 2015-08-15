@@ -1,0 +1,29 @@
+[user]
+   name = Devin Kelly
+   email = "dwwkelly@fastmail.fm"
+
+[core]
+   editor=vim
+   pager=less -R
+   excludesfile=~/.gitignore
+
+
+[color]
+   ui=true
+   status=true
+   grep=true
+
+[daemon]
+   export=true
+
+[push]
+   default = tracking
+
+[init]
+   templatedir = ~/.git_template
+
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	g = grep --break --heading --line-number
+[grep]
+	lineNumber = true
